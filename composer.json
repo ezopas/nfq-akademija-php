@@ -1,0 +1,21 @@
+{
+    "name": "evaldas/projektas",
+    "autoload": {
+        "files": [
+            "src/functions.php",
+            "src/functions_strict.php"
+        ]
+    },
+    "require": {
+        "react/react": "^0.4.2",
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.0"
+    },
+    "authors": [
+        {
+            "name": "evaldas o",
+            "email": "evaldas@ostrauskas.com"
+        }
+    ]
+}
