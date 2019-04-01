@@ -6,7 +6,8 @@ namespace {
         foreach($numbers as $numb){
             $sum += $numb;
         }
-        echo "calculateHomeWorkSum: " . $sum;
+        echo "calculateHomeWorkSum: ";
+        return $sum;
     }
 }
 
@@ -16,7 +17,8 @@ namespace Nfq\Akademija\Not_Typed{
         foreach($numbers as $numb){
             $sum += $numb;
         }
-        echo "Nfq\Akademija\Not_Typed\calculateHomeWorkSum: " . $sum;
+        echo "Nfq\Akademija\Not_Typed\calculateHomeWorkSum: ";
+        return $sum;
     }
 }
 
@@ -27,7 +29,8 @@ namespace Nfq\Akademija\Soft{
             $sum += $numb;
         }
 
-        echo "Nfq\Akademija\Soft\calculateHomeWorkSum: " . $sum;
+        echo "Nfq\Akademija\Soft\calculateHomeWorkSum: ";
+        return $sum;
     }
 }
 

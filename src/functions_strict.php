@@ -8,7 +8,12 @@ namespace Nfq\Akademija\Strict {
         foreach($numbers as $numb){
             $sum += $numb;
         }
-        echo "Nfq\Akademija\Strict\calculateHomeWorkSum" . $sum;
+        echo "Nfq\Akademija\Strict\calculateHomeWorkSum";
+        return $sum;
+    }
+
+    function callerToStrict(){
+        calculateHomeWorkSum(3, 2.2, '1');
     }
 }
 
